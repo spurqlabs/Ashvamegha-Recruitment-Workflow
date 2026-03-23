@@ -1,0 +1,5 @@
+{
+  "recruitmentMenu": "a[href*='viewRecruitmentModule']",
+  "candidatesTab": "a:has-text('Candidates')",
+  "pageHeader": "h5:has-text('Candidates')"
+}

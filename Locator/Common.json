@@ -1,0 +1,6 @@
+{
+  "userDropdown": ".oxd-userdropdown-tab",
+  "logoutLink": "a:has-text('Logout')",
+  "loginHeader": "h5:has-text('Login')",
+  "loader": ".oxd-form-loader"
+}

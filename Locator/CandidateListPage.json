@@ -1,0 +1,15 @@
+{
+  "candidateNameSearchInput": "(//label[contains(.,'Candidate Name')]/ancestor::div[contains(@class,'oxd-input-group')]//input)[1]",
+  "candidateNameOptions": "div[role='listbox'] .oxd-autocomplete-option",
+  "vacancySearchDropdown": "(//label[contains(.,'Vacancy')]/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text')])[1]",
+  "statusSearchDropdown": "(//label[contains(.,'Status')]/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text')])[1]",
+  "searchButton": "button:has-text('Search')",
+  "resetButton": "button:has-text('Reset')",
+  "candidateRows": ".oxd-table-body .oxd-table-card",
+  "firstCandidateAction": ".oxd-table-body .oxd-table-card:first-child button, .oxd-table-body .oxd-table-card:first-child i",
+  "shortlistButton": "button:has-text('Shortlist')",
+  "scheduleInterviewButton": "button:has-text('Schedule Interview')",
+  "saveStatusButton": "button:has-text('Save')",
+  "statusHeader": ".orangehrm-recruitment-status p, .orangehrm-recruitment-header p",
+  "backButton": "button:has-text('Back')"
+}

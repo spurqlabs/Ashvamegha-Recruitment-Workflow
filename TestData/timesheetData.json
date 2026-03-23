@@ -1,0 +1,15 @@
+{
+  "Add a new timesheet entry and verify total hours": {
+    "login": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "timesheet": {
+      "project": "Apache Software Foundation - ASF - Phase 1",
+      "activity": "Development",
+      "hours": "08:00",
+      "expectedSuccessMessage": "Success",
+      "expectedTotalHours": "08:00"
+    }
+  }
+}

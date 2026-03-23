@@ -1,0 +1,15 @@
+{
+  "timeMenu": "span:has-text('Time')",
+  "timesheetsTopMenu": "span:has-text('Timesheets')",
+  "myTimesheetsMenu": "a:has-text('My Timesheets')",
+  "addRowButton": "button:has-text('Add')",
+  "projectDropdown": "label:has-text('Project') + div .oxd-select-text",
+  "projectOptions": "div[role='listbox'] .oxd-select-option",
+  "activityDropdown": "label:has-text('Activity') + div .oxd-select-text",
+  "activityOptions": "div[role='listbox'] .oxd-select-option",
+  "hoursInput": "input[placeholder='hh:mm']",
+  "saveButton": "button:has-text('Save')",
+  "successToast": ".oxd-toast-content",
+  "timesheetTableRows": ".oxd-table-body .oxd-table-row",
+  "totalHoursValue": ".orangehrm-timesheet-table-footer .total-hours, text=/Total\\s*\\(Hours\\)/i"
+}

@@ -1,0 +1,25 @@
+{
+  "Apply leave from JSON data and verify it is pending approval": {
+    "login": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "entitlement": {
+      "leaveType": "CAN - Personal",
+      "period": "2026-01-01 - 2026-31-12",
+      "days": "5"
+    },
+    "leave": {
+      "type": "CAN - Personal",
+      "fromDate": "2026-04-15",
+      "toDate": "2026-04-16",
+      "partialDays": "All Days",
+      "comment": "Leave request created by automation framework",
+      "status": "Pending Approval"
+    },
+    "filter": {
+      "fromDate": "2026-04-01",
+      "toDate": "2026-04-30"
+    }
+  }
+}

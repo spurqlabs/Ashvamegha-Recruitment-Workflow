@@ -1,0 +1,19 @@
+{
+  "addButton": "button:has-text('Add')",
+  "firstNameInput": "input[name='firstName']",
+  "middleNameInput": "input[name='middleName']",
+  "lastNameInput": "input[name='lastName']",
+  "vacancyDropdown": "div.oxd-select-text",
+  "vacancyOptions": "div[role='listbox'] .oxd-select-option",
+  "emailInput": "(//label[contains(.,'Email')]/ancestor::div[contains(@class,'oxd-input-group')]//input)[1]",
+  "contactInput": "(//label[contains(.,'Contact Number')]/ancestor::div[contains(@class,'oxd-input-group')]//input)[1]",
+  "keywordsInput": "input[placeholder='Enter comma seperated words...']",
+  "dateInput": "input[placeholder='yyyy-dd-mm']",
+  "notesInput": "textarea",
+  "resumeUploadInput": "input[type='file']",
+  "saveButton": "button:has-text('Save')",
+  "successToast": ".oxd-toast-content",
+  "applicationStageHeader": "text=Application Stage",
+  "candidateProfileHeader": "text=Candidate Profile",
+  "candidateIdValue": "label:has-text('Candidate Id') + div input"
+}

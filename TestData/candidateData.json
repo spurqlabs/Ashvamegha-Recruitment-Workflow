@@ -1,0 +1,37 @@
+{
+  "Successful login to application": {
+    "login": {
+      "username": "Admin",
+      "password": "admin123"
+    }
+  },
+  "Logout and validate session end": {
+    "login": {
+      "username": "Admin",
+      "password": "admin123"
+    }
+  },
+  "Add new candidate and continue status updates up to interview scheduled": {
+    "login": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "candidate": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe.automation@testmail.com",
+      "phone": "9876543210",
+      "vacancy": "Payroll Administrator",
+      "keywords": "C#, Reqnroll, Playwright, Automation",
+      "notes": "Created by automation framework",
+      "resumePath": "Resources/resumes/sample_resume.pdf",
+      "statusToUpdate": "Shortlisted",
+      "secondaryStatusToUpdate": "Interview Scheduled",
+      "interviewTitle": "Initial HR Discussion",
+      "interviewer": "Sajan 1.221. sharma",
+      "interviewDate": "2026-03-20",
+      "interviewTime": "10:30 AM",
+      "interviewNotes": "Interview scheduled by automation framework"
+    }
+  }
+}
